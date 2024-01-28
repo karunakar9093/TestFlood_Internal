@@ -1,0 +1,24 @@
+{
+    "baseURL": "https://www.leretanet.com/",
+    "userName":"KY89003A",
+    "password":"Today@920",
+    "lastName":"TestTotalFlood",
+    "firstName":"_",
+    "House":"901",
+    "Street":"CORPORATE CENTER DR",
+    "City":"POMONA",
+    "Zip1":"91768",
+    "Zip2":"2642",
+    "State":"CA",
+    "LoanId":"1703772746071",
+    "CertificateNo":"93915156",
+    "csrName":"TestTotalFlood",
+    "csrCompany":"Info Corp",
+    "csrPhone":"12345678",
+    "csrFax":"(000)000-0000",
+    "csrEmail":"KYEDLA@LERETA.COM",
+    "csrType":"Copy of Flood Certificate",
+    "zipOptional":"901"
+    
+
+}

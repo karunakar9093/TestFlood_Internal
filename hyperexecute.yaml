@@ -1,0 +1,23 @@
+---
+version: "0.1"
+globalTimeout: 1
+testSuiteTimeout: 1
+testSuiteStep: 1
+runson: win
+autosplit: false
+retryOnFailure: true
+maxRetries: 1
+concurrency: 1
+pre:
+  - npm install
+  - npx playwright install
+cacheKey: '{{ checksum "package-lock.json" }}'
+cacheDirectories:
+  - node_modules
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: grep -lr 'describe' *test.ts
+testRunnerCommand: npx playwright test $test
+
+jobLabel: [playwright-VanillaJS, win, autosplit] 

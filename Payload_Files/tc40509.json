@@ -1,0 +1,11 @@
+{
+    "clientId": "string",
+      "correlationId": "loancontract",
+      "addresses": [
+        {
+          "id": "1457",
+          "addressLine": "510 KENYON JETMORE, KS, 67854"
+        }
+      ],
+      "configurationToUse": 1
+}

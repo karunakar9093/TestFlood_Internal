@@ -1,0 +1,11 @@
+{
+    "clientId": "string",
+      "correlationId": "loancontract",
+      "addresses": [
+        {
+          "id": "1458",
+          "addressLine": "2216 Reddfield Dr, VA, 22043"
+        }
+      ],
+      "configurationToUse": 1
+}

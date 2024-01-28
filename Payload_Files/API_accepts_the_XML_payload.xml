@@ -1,0 +1,26 @@
+<REQUEST_GROUP MISMOVersionID="2.1.1">
+  <REQUESTING_PARTY _Name="BMO Harris Bank, N.A." _StreetAddress="320 S. Canal Street" _City="Chicago" _State="IL" _PostalCode="60603">
+    <CONTACT_DETAIL _Name="">
+      <CONTACT_POINT _RoleType="Work" _Type="Email" _Value="gsze@lereta.com" _PreferenceIndicator="N" />
+      <CONTACT_POINT _RoleType="Work" _Type="Phone" _Value="312-461-5465" _PreferenceIndicator="N" />
+    </CONTACT_DETAIL>
+    <PREFERRED_RESPONSE _Format="PDF" _UseEmbeddedFileIndicator="N" _Method="File" />
+  </REQUESTING_PARTY>
+  <RECEIVING_PARTY _Name="US Determination Services, Inc" />
+  <SUBMITTING_PARTY _Name="Wolters Kluwer Financial Services" _StreetAddress="536th Ave" _City="Owego" _State="NY" _PostalCode="13827" />
+  <REQUEST RequestDateTime="5/10/2022T12:00 AM" InternalAccountIdentifier="" LoginAccountIdentifier="QADEMOGS" LoginAccountPassword="Service1">
+    <REQUEST_DATA>
+      <FLOOD_REQUEST MISMOVersionID="2.1.1" _ActionType="Original" _CommentText="PLEASE SEE APPRAISAL SENT VIA EMAIL. TAX MAP NUMBER: 251-0609-022-0105-7" _RushIndicator="N">
+        <_PRODUCT _CategoryDescription="Flood">
+          <_TYPE _Identifier="LOL" _Description="LOL" />
+          <_NAME BorrowerFloodAcknowledgementLetterIndicator="N" _Identifier="L11" _Description="Auto Manual LOL" />
+        </_PRODUCT>
+        <BORROWER _UnparsedName="QA GLORIA TESTING" />
+        <MORTGAGE_TERMS LenderCaseIdentifier="March21_Test_P2_UAT" />
+        <PROPERTY _StreetAddress="5 BILLFISH LN" _StreetAddress2="" _City="TYBEE ISLAND" _State="GA" _PostalCode="31328" AssessorsParcelIdentifier="" _County="" _TitleCategoryType="CommercialNonResidential">
+          <_LEGAL_DESCRIPTION _Type="Other" _TextDescription="" />
+        </PROPERTY>
+      </FLOOD_REQUEST>
+    </REQUEST_DATA>
+  </REQUEST>
+</REQUEST_GROUP>

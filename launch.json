@@ -1,0 +1,14 @@
+    {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Debug Playwright Test",
+            "program": "${workspaceFolder}/node_modules/.bin/playwright",
+            "args": ["test", "--project=chromium", "${file}"],
+            "console": "integratedTerminal",
+            "outputCapture": "std"
+        }
+    ]
+}

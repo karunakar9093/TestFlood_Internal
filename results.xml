@@ -1,0 +1,133 @@
+<testsuites id="" name="" tests="8" failures="2" skipped="0" errors="0" time="1468.3474390000001">
+<testsuite name="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" timestamp="2024-01-26T07:31:42.139Z" hostname="" tests="8" failures="2" skipped="0" time="1289.264" errors="0">
+<testcase name="suite › 1. FloodVision-  Verify Disputes Queue tab and validate on Disputes Queue page on FloodVision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="100.856">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 1. FloodVision-  Verify Disputes Queue tab and validate on Disputes Queue page on FloodVision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-b7a53--validate-on-Disputes-Queue-page-on-FloodVision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 2. FloodVision - Verify Duplicates Queue tab and validate on Duplicates Queue page on FloodVision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="163.512">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 2. FloodVision - Verify Duplicates Queue tab and validate on Duplicates Queue page on FloodVision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-1cf78-alidate-on-Duplicates-Queue-page-on-FloodVision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 3. FloodVision  - Verify Cancel Queue tab and validate Cancel Queue page on FloodVision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="127.289">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 3. FloodVision  - Verify Cancel Queue tab and validate Cancel Queue page on FloodVision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-25b93-b-and-validate-Cancel-Queue-page-on-FloodVision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 4. FloodVision - Verify Maintenance tab and validate on Maintenance page on FloodVision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="136.491">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 4. FloodVision - Verify Maintenance tab and validate on Maintenance page on FloodVision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-e2b2a-and-validate-on-Maintenance-page-on-FloodVision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 5. FloodVision - Verify Preference tab and validate on Preference page on FloodVision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="146.551">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 5. FloodVision - Verify Preference tab and validate on Preference page on FloodVision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-59406--and-validate-on-Preference-page-on-FloodVision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 6. FloodVision - Generate Certificate on Flood Vision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="206.399">
+<failure message="CertificateOrderDetails.test.ts:73:1 6. FloodVision - Generate Certificate on Flood Vision" type="FAILURE">
+<![CDATA[  UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts:73:1 › suite › 6. FloodVision - Generate Certificate on Flood Vision 
+
+    Error: locator.click: Target page, context or browser has been closed
+    Call log:
+      - waiting for locator('//a[text()=\'New\']')
+      -   locator resolved to <a href="/Flood/FCS/Certificate.aspx">New</a>
+      - attempting click action
+      -   waiting for element to be visible, enabled and stable
+
+
+       at UITest\PagesObjects\FloodVision\CertificateOrderPage.ts:91
+
+      89 |     async clkCertificateNew() {
+      90 |         await this.lnk_certificateNew.waitFor({ state: "visible" })
+    > 91 |         await this.lnk_certificateNew.click()
+         |                                       ^
+      92 |     }
+      93 |
+      94 |     async orderFormFill(p2ClientId: string, lName: string, fName: string, address:
+
+        at CertificateOrderPage.clkCertificateNew (c:\Users\Kyedla\source\repos\QAAutomation_FloodServices\UITest\PagesObjects\FloodVision\CertificateOrderPage.ts:91:39)
+        at c:\Users\Kyedla\source\repos\QAAutomation_FloodServices\UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts:79:5
+]]>
+</failure>
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 6. FloodVision - Generate Certificate on Flood Vision
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 7. FloodVision - Create and Search Certificate number on Flood Vision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="300.024">
+<failure message="CertificateOrderDetails.test.ts:86:1 7. FloodVision - Create and Search Certificate number on Flood Vision" type="FAILURE">
+<![CDATA[  UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts:86:1 › suite › 7. FloodVision - Create and Search Certificate number on Flood Vision 
+
+    Test timeout of 300000ms exceeded.
+
+    Error: locator.textContent: Test ended.
+    Call log:
+      - waiting for locator('//*[contains(text(), \'new certificate has been created with Certificate No\')]')
+
+
+       at UITest\PagesObjects\FloodVision\CertificateOrderPage.ts:113
+
+      111 |     async verifyCertificateGenerated(actualp2ClientId: string) {
+      112 |         await this.txt_certificateSuccess.highlight()
+    > 113 |         var certificateSuccess = await this.txt_certificateSuccess.textContent()
+          |                                                                    ^
+      114 |         await this.txt_certificateNo.waitFor({ state: "visible" })
+      115 |         var expectedcertificateNo = await this.txt_certificateNo.textContent()
+      116 |         var expectedp2ClientId = await this.txt_p2ClientIdLoc.textContent()
+
+        at CertificateOrderPage.verifyCertificateGenerated (c:\Users\Kyedla\source\repos\QAAutomation_FloodServices\UITest\PagesObjects\FloodVision\CertificateOrderPage.ts:113:68)
+        at c:\Users\Kyedla\source\repos\QAAutomation_FloodServices\UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts:95:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\UITest-MainTests-FloodVision-CertificateOrderD-c63e1-e-and-Search-Certificate-number-on-Flood-Vision\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 7. FloodVision - Create and Search Certificate number on Flood Vision
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-c63e1-e-and-Search-Certificate-number-on-Flood-Vision\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="suite › 8. FloodVision - Edit Client on Flood Vision" classname="UITest\MainTests\FloodVision\CertificateOrderDetails.test.ts" time="108.142">
+<system-out>
+<![CDATA[https://uat.leretanet.com/Default.aspx
+TITLE: 8. FloodVision - Edit Client on Flood Vision
+STATUS: passed
+
+[[ATTACHMENT|test-results\UITest-MainTests-FloodVision-CertificateOrderD-46ecb-ite-8-FloodVision---Edit-Client-on-Flood-Vision\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

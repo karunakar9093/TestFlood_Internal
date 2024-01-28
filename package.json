@@ -1,0 +1,32 @@
+{
+  "name": "vscode_ide_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/yargs": "^17.0.31",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "json5": "^2.2.3",
+    "reflect-metadata": "^0.1.14"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/fs-extra": "^11.0.3",
+    "@types/node": "^20.10.4",
+    "playwright": "^1.40.1",
+    "typescript": "^5.3.3",
+    "xml2js": "^0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Instructions on how to create and run Playwright tests:\r Run environment choice from terminal window:  $env:EnvironmentNow = \"UAT-CHROME-REPORTS-REMOTE\"",
+  "directories": {
+    "test": "tests"
+  }
+}

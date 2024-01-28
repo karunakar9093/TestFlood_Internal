@@ -1,0 +1,41 @@
+# Dependency directories
+node_modules/
+
+# TypeScript compiled files
+*.js
+*.js.map
+*.jsx
+*.jsx.map
+*.d.ts
+
+# TypeScript declaration files (if not intended for distribution)
+*.d.ts
+
+# Environment configuration files
+.env
+.env.local
+
+# Playwright-specific
+test-results/
+*.har
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.tmp.*
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# utility script file
+stuff.sh
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo

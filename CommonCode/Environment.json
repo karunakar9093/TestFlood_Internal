@@ -1,0 +1,60 @@
+{
+    "Environments": [
+      {
+        "Name": "UAT-CHROME-REPORTS-REMOTE",
+        "URL": "https://uat.leretanet.com/login.aspx?ReturnUrl=%2f",
+        "EndpointPrefix": "ERROR",
+        "user": "LD200401",
+        "password": "Automation23",
+        "special": "no special data yet"
+      },
+      {
+        "Name": "UAT-CHROME-REPORTS-LOCAL",
+        "URL": "https://uat.leretanet.com/login.aspx?ReturnUrl=%2f",
+        "EndpointPrefix": "ERROR",
+        "user": "LD200401",
+        "password": "Automation23",
+        "special": "no special data yet"
+      },
+      {
+        "Name": "DEV-CHROME-REPORTS-LOCAL",
+        "URL": "https://uat.leretanet.com/login.aspx?ReturnUrl=%2f",
+        "EndpointPrefix": "open from Ramya",
+        "user": "LD200401",
+        "password": "Automation23",
+        "special": "no special data yet"
+      },      
+      {
+        "Name": "QA-CHROME-REPORTS-LOCAL",
+        "URL": "https://uat.leretanet.com/login.aspx?ReturnUrl=%2f",
+        "EndpointPrefix": "20.14.40.3",
+        "user": "01T04669",
+        "password": "Password112",
+        "special": "no special data yet"
+      },
+      {
+        "Name": "QA-CHROME-REPORTS-REMOTE",
+        "URL": "https://uat.leretanet.com/login.aspx?ReturnUrl=%2f",
+        "EndpointPrefix": "20.14.40.3",
+        "user": "01T04669",
+        "password": "Password112",
+        "special": "no special data yet"
+      },            
+      {
+        "Name": "UAT-CHROME-REPORTS-REMOTE-ADMIN",
+        "URL": "https://uat.leretanet.com/login.aspx",
+        "EndpointPrefix": "ERROR",
+        "user": "01T04669",
+        "password": "Password112",
+        "special": "no special data yet"
+      },
+      {
+        "Name": "UAT-CHROME-REPORTS-LOCAL-ADMIN",
+        "URL": "https://uat.leretanet.com/login.aspx",
+        "EndpointPrefix": "ERROR",
+        "user": "01T04669",
+        "password": "Password112",
+        "special": "no special data yet"
+      }
+    ]
+  }

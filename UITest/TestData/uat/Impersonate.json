@@ -1,0 +1,29 @@
+{
+    "baseURL": "https://uat.leretanet.com/",
+    "userName":"LDQAAUTO",
+    "password":"Gateway123!",
+    "lenderID":"99998",
+    "floodLOB":"00026",
+    "ReportName":"FLOOD POSITIVE Report",
+    "ReportName2":"FLOOD VOLUME Report",
+    "ServiceType":"ALL",
+    "txtCertNoSeq":"0001",
+    "LoanID":"1705115305381",
+    "csrName":"TestTotalFlood",
+    "csrCompany":"Info Corp",
+    "csrPhone":"12345678",
+    "csrFax":"(000)000-0000",
+    "csrEmail":"KYEDLA@LERETA.COM",
+    "csrType":"Copy of Flood Certificate",
+    "Zip1":"91768",
+    "CertificateNo":"39707546",
+    "lastName":"TestTotalFlood",
+    "firstName":"_",
+    "House":"901",
+    "Street":"CORPORATE CENTER DR",
+    "City":"POMONA",
+    "Zip2":"2642",
+    "zipOptional":"901"
+
+      
+}

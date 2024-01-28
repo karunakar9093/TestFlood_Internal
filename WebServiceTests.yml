@@ -1,0 +1,26 @@
+trigger:
+- main
+
+pool:
+  name: 'QAAutomationAgent'
+
+steps:
+- checkout: git://LERETANET/SentinelsTestAutomation
+  displayName: 'Checkout SentinelsTestAutomation repository'
+
+- task: PowerShell@2
+  displayName: 'Run PowerShell Script and Tests'
+  inputs:
+    targetType: 'inline'
+    script: |
+      write-output "👉 ./InstallSetUps.ps1"
+      ./InstallSetUps.ps1
+      write-output  "👉  npx playwright install"
+      npx playwright install
+      write-output "👉 $env:EnvironmentNow = 'QA-CHROME-REPORTS-LOCAL'"
+      $env:EnvironmentNow = "QA-CHROME-REPORTS-LOCAL"
+      write-output "👉  npx playwright test -g "All Web Service API Address tests""
+      npx playwright test -g "All Web Service API Address tests"
+      cd CommonCode
+      dir
+      type token.txt

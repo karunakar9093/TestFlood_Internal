@@ -1,0 +1,23 @@
+{
+    "baseURL": "https://uat.leretanet.com/",
+    "userName":"221565UT",
+    "password":"Winter92",
+    "lastName":"TestTotalFlood",
+    "firstName":"_",
+    "House":"901",
+    "Street":"CORPORATE CENTER DR",
+    "City":"POMONA",
+    "Zip1":"91768",
+    "Zip2":"2642",
+    "State":"CA",
+    "LoanId":"1705117537650",
+    "CertificateNo":"87763710",
+    "csrName":"TestTotalFlood",
+    "csrCompany":"Info Corp",
+    "csrPhone":"12345678",
+    "csrFax":"(000)000-0000",
+    "csrEmail":"KYEDLA@LERETA.COM",
+    "csrType":"Copy of Flood Certificate",
+    "zipOptional":"901"
+
+}

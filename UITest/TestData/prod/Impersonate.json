@@ -1,0 +1,30 @@
+{
+    "baseURL": "https://www.leretanet.com/",
+    "userName":"01T02989",
+    "password":"Inypfvl3",
+    "lenderID":"99998",
+    "floodLOB":"00026",
+    "ReportName":"FLOOD POSITIVE Report",
+    "ReportName2":"FLOOD VOLUME Report",
+    "ServiceType":"ALL",
+    "txtCertNO":"79815222",
+    "txtCertNoSeq":"0001",
+    "LoanID":"391902",
+    "CertificateNo":"57622141",
+    "lastName":"TestTotalFlood",
+    "firstName":"_",
+    "House":"901",
+    "csrName":"TestTotalFlood",
+    "csrCompany":"Info Corp",
+    "csrPhone":"12345678",
+    "csrFax":"(000)000-0000",
+    "csrEmail":"KYEDLA@LERETA.COM",
+    "csrType":"Copy of Flood Certificate",
+    "Zip1":"91768",
+    "Zip2":"2642",
+    "Street":"CORPORATE CENTER DR",
+    "City":"POMONA",
+    "zipOptional":"901"
+
+      
+}
